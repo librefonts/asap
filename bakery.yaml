@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Asap-Regular.ttf.ttx, Asap-Italic.ttf.ttx, Asap-BoldItalic.ttf.ttx,
+  Asap-Bold.ttf.ttx, src/Asap-Regular.otf.ttx, src/Asap-Italic.otf.ttx, src/Asap-BoldItalic.otf.ttx,
+  src/Asap-Bold.otf.ttx, src/Asap-Regular-TTF.sfd, src/Asap-Italic-TTF.sfd, src/Asap-BoldItalic-TTF.sfd,
+  src/Asap-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
